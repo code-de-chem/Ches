@@ -1,0 +1,342 @@
+/* 
+    Created on : Aug 14, 2015, 3:03:29 AM
+    Author     : Saurabh Singh
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #999999;
+}
+#try{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: #fff;
+}
+ul>li{
+    list-style-type: none;
+    padding-bottom: 1%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner{
+    border-bottom: 1px solid #000;
+}
+#dept{
+    font-family: monospace;
+    font-size: 50px;
+}
+#clg{
+    font-family: monospace;
+    font-size: x-large;
+    color: gray;
+}
+
+.pageHeading{
+    text-align: center;
+    font-size: 45px;
+}
+.pageSubHeading{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+#mainName{
+    width: calc(100% - 2*207px);
+    height: 200px;
+    display: inline-block;
+    outline: 1px solid #000;
+}
+.navigationLink{position: fixed;
+    background-color: darkgoldenrod;
+    width: 390px;
+    z-index: 1050;
+    text-align: right;top: 0px;
+    margin-left: calc(100% - 390px);}
+.navigationLink>a:hover{background-color: brown;}
+#myAccountPopup{    position: fixed;
+    width: 256px;
+    margin-left: calc(100% - 256px);
+    margin-top: 23px;z-index: 1100;
+    background-color: beige;visibility: hidden;
+}
+#popupUserImg{
+        width: 110px;
+    display: inline-block;
+    height: 110px;box-shadow: 0 -16px 103px rgba(177, 87, 8, 0.7);
+    position: relative;margin-left: 9px;margin-top: 7px;
+}
+#popupUserDeatils{    display: block;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2px;}
+#popupUsername{    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin-top: 17%;
+    margin-left: 6%;}
+.popupUserExtra{display: inline-block;padding-right: 2%;
+    padding-left: 2%;
+    border: 1px solid burlywood;
+    background-color: bisque;}
+.popupUserExtra:hover{
+    background-color: chocolate;cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+table{
+    border: 2px solid #000;
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 70%;
+}
+.heading{
+    font-weight: bold;
+}
+.professor{
+    padding-bottom: 20px;
+    height:auto;
+}
+
+.mainFaculty{
+    /*margin-top: 20%;*/
+}
+#mainTitleFaculty{
+    text-align: center;
+    font-size: 32px;
+    font-family: cursive;
+    margin-top: 3%;
+    padding-bottom: 50px;
+}
+.professor>.image{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 1% 1% 1%;
+}
+#otherFaculty{display: none;}
+
+
+.studentsHead {
+    text-align: center;
+    margin-top: 1%;
+}
+.studentListTable{
+    text-align: center;
+}
+
+
+#activityList{
+    margin-left: 4%;
+    float: left;
+    margin-top: 4%;
+}
+.activitySection{
+    padding: 10px 18px 10px 18px;
+    /* padding-bottom: 1px; */
+    background-color: bisque;
+}
+.activitySection:hover{
+    background-color:  #FF7E00;cursor: pointer;
+}
+.activitiesSubSection{
+    display: none;
+    position: relative;
+    text-align: justify;
+    padding: 4% 2% 1% 3%;
+}
+.activitySubSectionHead{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: red;}
+.activitySubSectionHead:hover{font-size: 32px;color: tomato;}
+#activity_home{
+    display: block;
+}
+.activityEventName{    font-size: 25px; cursor: pointer;
+    color: brown;}
+.activityEventName:hover{color: chocolate; font-size: 28px;}
+.activityEventContent{color: cornflowerblue;display: none;padding-top: 1%;padding-bottom: 1%;padding-left: 5%;}
+.activityEventContent:hover{font-style: italic;}
+.contentSocieties, .contentResearchs{
+    padding: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+.linkToGallery{
+    font-size: xx-large;
+    float: right;
+    padding-right: 8%;
+    padding-top: 10%;
+}
+
+
+
+#mainLoginISMStudent{
+border: 2px solid burlywood;
+    box-shadow: 0 7px 100px rgba(177, 87, 8, 0.7);
+    width: 16%;
+    min-height: 132px;
+    height: auto;
+    padding: 20px;
+    margin-top: 11%;
+    position: relative;
+    margin-left: 13%;
+    margin-bottom: 2%;
+    display: block;
+    text-align: justify;
+}
+.formRow{
+    display: block;
+    padding: 2%;
+    padding-right: 7%;
+}
+#mainNewUser{
+border: 2px solid burlywood;
+    box-shadow: 0 7px 100px rgba(177, 87, 8, 0.7);
+    width: 33%;
+    min-height: 132px;
+    height: auto;
+    padding: 20px;
+    margin-top: -21%;
+    margin-left: 55%;
+    margin-bottom: 2%;
+    display: block;
+    position: relative;
+    text-align: justify;
+}
+
+
+
+.studentPic{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-left: 85px;
+}
+.studentDetail{
+        padding-top: 2%;
+}
+#studentDetail{
+        margin-left: 15%;
+    margin-top: 2%;
+    width: 70%;
+    padding-left: 6%;
+}
+.addDetails{
+    margin-top: 8%;
+}
+.studentExtraDetails{
+    border: 2px solid burlywood;
+    box-shadow: 0 7px 100px rgba(177, 87, 8, 0.7);
+    border-radius: 24px;
+    width: 85%;
+    min-height: 90px;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-right: 5%;
+    position: relative;
+}
+.studentExtraDetailsContent{
+    position: relative;
+    padding: 1%;
+}
+.profileSubmit{text-align: center; }
+.cke_editable{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+/**.Programmes {
+     border: 2px solid burlywood;
+    box-shadow: 0 7px 100px rgba(177, 87, 8, 0.7);
+    width: 57%;
+    min-height: 248px;
+    height: auto;
+    padding: 10px;
+    margin-top: 4%;
+    margin-left: 5%;
+    display: inline-block;
+}*/
+
+.formChangePassword {
+    border: 2px solid burlywood;
+    box-shadow: 0 7px 100px rgba(177, 87, 8, 0.7);
+    width: 16%;
+    padding: 1%;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 39%;
+}
+.formRowISMCP{
+    padding-bottom: 5%;
+}
+
+
+#aboutusUl>li{
+    background-color: transparent;
+    text-align: justify;
+    padding-left: 47px
+}
+
+
+/*Gallery*/
+.flex-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    align-items: stretch;
+}
+.flex-item{
+    flex: 1;
+}
+.flex-item:hover{
+    flex: 3;
+}
+
+
+
+#footer{
+    background-color: #999999;
+    margin-top: 20px;
+}
+.footer-head{
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-decoration: underline;    
+}
+.footer-Content{
+    cursor: pointer;
+}
+#footerBar{
+	background-color:#F60;
+	padding:5px;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+}

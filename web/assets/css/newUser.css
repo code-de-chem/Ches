@@ -1,0 +1,90 @@
+/* 
+    Created on : Aug 2, 2015, 9:12:59 PM
+    Author     : Saurabh Singh
+*/
+
+*{
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+}
+
+
+#main{
+    border:2px #000000;
+    border-style:solid;
+    box-shadow:0 7px 100px rgba(0, 0, 0, 0.7);
+    border-radius:7px;
+    width:395px;
+    height:396px;
+    padding:10px;
+    margin-top: 10%;
+    margin-left: 35%;
+        
+}
+
+
+#navigationLink{
+    margin-left: calc(100% - 450px);
+    width: 450px;
+    margin-top: -9.9%;
+    text-align: right;
+}
+#navigationLinkSubmit {
+    margin-left: calc(100% - 297px);
+    width: 297px;
+    margin-top: -4%;
+}
+.navigationLink{
+    position: fixed;
+    background-color: powderblue;
+}
+.navigationLink>a:hover{
+    background-color: skyblue;
+}
+
+
+span.marker{
+    color: red;
+}
+.left {
+    float: left;
+    padding-left: 10px;
+}
+
+.right {
+    float: right;
+    padding-right: 10px;
+}
+.submit_button{
+    padding-left: 140px;
+    padding-top: 10px;
+}
+.formRow {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+#formHead{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#alreadyMember{
+    float: right;
+}
+#mandatoryRow{
+    padding-bottom: 10px;
+}
+#submitRow{
+    padding-top: 0px;
+}
+#footer{
+    width: 100%;
+    margin-top: 5%;
+}
+#footerContent{
+	background-color:#F60;
+	padding:5px;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+}

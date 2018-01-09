@@ -1,0 +1,138 @@
+/* 
+    Created on : Aug 2, 2015, 6:35:21 PM
+    Author     : Saurabh Singh
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#banner{
+    
+}
+#dept{
+    font-family: monospace;
+    font-size: 50px;
+}
+#clg{
+    font-family: monospace;
+    font-size: x-large;
+    color: gray;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #999999;
+}
+.navigationLink{position: fixed;
+    background-color: darkgoldenrod;
+    width: 390px;
+    z-index: 1100;
+    text-align: right;
+    margin-left: calc(100% - 421px);
+    margin-top: -29px;
+}
+.navigationLink>a:hover{background-color: brown;}
+#myAccountPopup{    position: fixed;
+    width: 256px;
+    margin-left: calc(100% - 286px);
+    margin-top: -15px;z-index: 1150;
+    background-color: beige;visibility: hidden;
+}
+#popupUserImg{
+        width: 110px;
+    display: inline-block;
+    height: 110px;box-shadow: 0 -16px 103px rgba(177, 87, 8, 0.7);
+    position: relative;margin-left: 9px;margin-top: 7px;
+}
+#popupUserDeatils{    display: block;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2px;}
+#popupUsername{    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin-top: 17%;
+    margin-left: 6%;}
+.popupUserExtra{display: inline-block;padding-right: 2%;
+    padding-left: 2%;
+    border: 1px solid burlywood;
+    background-color: bisque;}
+.popupUserExtra:hover{
+    background-color: chocolate;cursor: pointer;
+}
+
+
+
+
+
+#try{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: #fff;
+}
+
+ul>li{
+    list-style-type: none;
+    padding-bottom: 1%;
+}
+
+
+#rightRecent{
+    padding-top: 20px;
+    display: inline-block;
+    padding-left: 25px;
+}
+#rightSponsors{
+	padding-top:20px;
+        padding-left: 25px;
+}
+.FirstHead{
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+}
+#centerContent{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+#defineChem{
+    display: inline-block;
+    text-align: justify;
+}
+#historyChem{
+	display:inline-block;
+        width: 610px;
+        text-align: justify;
+        margin-left: 469px;
+        margin-top: 10px;
+}
+
+
+#footer{
+    background-color: #999999;
+    margin-top: 20px;
+}
+.footer-head{
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-decoration: underline;    
+}
+.footer-Content{
+    cursor: pointer;
+}
+#footerBar{
+	background-color:#F60;
+	padding:5px;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+}
+

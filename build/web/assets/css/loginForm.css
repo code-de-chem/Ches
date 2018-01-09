@@ -1,0 +1,67 @@
+/* 
+    Created on : Aug 2, 2015, 6:35:21 PM
+    Author     : Saurabh Singh
+*/
+
+*{
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+}
+#main{
+    border:2px #000000;
+    border-style:solid;
+    box-shadow:0 7px 100px rgba(0, 0, 0, 0.7);
+    border-radius:7px;
+    width:258px;
+    height:189px;
+    padding:10px;
+    margin-top: 19%;
+    margin-left: 43%;
+        
+}
+
+#navigationLink{
+    margin-left: calc(100% - 450px);
+    width: 450px;
+    margin-top: -18.9%;
+    text-align: right;
+}
+#navigationLinkSubmit {
+    margin-left: calc(100% - 297px);
+    width: 297px;
+    margin-top: -4%;
+}
+.navigationLink{
+    position: fixed;
+    background-color: powderblue;
+}
+.navigationLink>a:hover{
+    background-color: skyblue;
+}
+
+#usernameSpan, #passwordSpan{
+    display: block;
+    margin: 4px;
+    margin-left: 19px;
+    padding: 4px;
+}
+
+#submitSpan{
+    padding-left: 10px;
+}
+#newUser{
+    float: right;
+    margin-right: 10%;
+}
+#footer{
+    width: 100%;
+    margin-top: 14.5%;
+}
+#footerContent{
+	background-color:#F60;
+	padding:5px;
+	text-align:center;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+}
